@@ -1,0 +1,108 @@
+body{
+    background-image: url(images/thunder.jpg);
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color:orange;
+}
+p{
+    color: dimgrey;
+}
+.half-width{
+width: 40%;
+float: left;
+margin-left: 4%;
+padding-left: 2%;
+}
+.half-width img{
+width: 70%;
+}
+.top-banner{
+background-image: url("images/header-bg.png");
+background-size: cover;
+}
+section{
+height: 500px;
+padding-bottom: 150px;
+}
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(45deg, lightsalmon,tomato);
+padding:10px 20px;
+border-radius: 15%;
+color: white;
+font-weight: 700;
+}
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+}
+.middle-text{
+    text-align: center;
+    color:orange;
+}
+.my-latest-work-area{ background-image: url(images/latest-work-bg.png);
+  background-size: cover;
+
+}
+.my-latest-work img{
+    width:30%;
+    float: left;
+}
+.client{
+    color: orange;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+  font-family: sans-serif;
+  background-image: url(images/footer-bg.png);
+}
+.font{
+    font-size: small;
+}
+.trump {
+    width:500px;
+     margin: auto;
+    padding:80px ;
+    height: 5px;
+    border: 5px solid rgba(128, 128, 128, 0.849);
+    background-color:orange;
+    text-align: center;
+}
+  .copyright{
+      text-align: center;
+      color: silver;
+  }
+  .single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,tomato);
+    border-image-slice: 1;
+}
+.middle{
+    text-align: center;
+    text-shadow: chocolate;
+    color: chocolate;
+}
